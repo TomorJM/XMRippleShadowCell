@@ -74,29 +74,13 @@ static void excute_block_after(NSTimeInterval delay, void (^block)(void))
 
 
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
-//    for (int i = 0; i< 100000; i++) {
-//        NSLog(@"%d",i);
-//    }
-    [super setSelected:selected animated:animated];
-    NSLog(@"selected---%d",selected);
-}
-
-- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
-{
-    NSLog(@"highlighted---%d",highlighted);
-}
-
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    
+//    NSLog(@"touchesBegan");
     [super touchesBegan:touches withEvent:event];
-    
     _touchCancelledOrEnded = NO;
-//    self.selected = NO;
-    
+    _fingerOnScreen = YES;
     excute_block_after(_tapDelay, ^{
             [self creatAnimationWithGestureRecognizer:[touches anyObject]];
         
@@ -104,27 +88,46 @@ static void excute_block_after(NSTimeInterval delay, void (^block)(void))
     
     
     
-    
 }
 
+
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [super touchesMoved:touches withEvent:event];
+//    NSLog(@"touchesMoved");
+    _touchCancelledOrEnded = YES;
+    [self accelerateAnimation];
+}
 
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
+//    NSLog(@"touchesEnded");
     [super touchesEnded:touches withEvent:event];
+    if (_animationFinished == YES && _animationProcessing == NO) {
+        [_rippleLayer removeFromSuperlayer];
+        _fingerOnScreen = NO;
+        _touchCancelledOrEnded = YES;
+        return;
+    }
+    _fingerOnScreen = NO;
     _touchCancelledOrEnded = YES;
-    self.selected = NO;
     [self accelerateAnimation];
-    NSLog(@"touchesEnded");
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
+//    NSLog(@"touchesCancelled");
     [super touchesCancelled:touches withEvent:event];
+    if (_animationFinished == YES && _animationProcessing == NO) {
+        [_rippleLayer removeFromSuperlayer];
+        _fingerOnScreen = NO;
+        _touchCancelledOrEnded = YES;
+        return;
+    }
+    _fingerOnScreen = NO;
     _touchCancelledOrEnded = YES;
-    self.selected = NO;
     [self accelerateAnimation];
-    NSLog(@"touchesCancelled");
 }
 
 
@@ -142,23 +145,21 @@ static void excute_block_after(NSTimeInterval delay, void (^block)(void))
 
 
 #pragma mark - AnimationDelegate
-//- (void)animationDidStart:(CAAnimation *)anim
-//{
-//    //    NSLog(@"animationDidStart");
-//    _animationProcessing = YES;
-//    _animationFinished = NO;
-//}
+- (void)animationDidStart:(CAAnimation *)anim
+{
+//    NSLog(@"animationDidStart");
+    _animationProcessing = YES;
+    _animationFinished = NO;
+}
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
 {
-//    _animationFinished = flag;
-//    _animationProcessing = NO;
-    if (_touchCancelledOrEnded) {
+//    NSLog(@"animationDidStop");
+    _animationFinished = YES;
+    _animationProcessing = NO;
+    if (_touchCancelledOrEnded == YES && _fingerOnScreen == NO) {
         [_rippleLayer removeFromSuperlayer];
-        self.selected = YES;
     }
-    //    NSLog(@"animationDidStop---%d",self.layer.sublayers.count);
-    
 }
 
 
@@ -176,7 +177,7 @@ static void excute_block_after(NSTimeInterval delay, void (^block)(void))
     }
     //获取触摸点位置
     CGPoint touchPoint = [touch locationInView:self];
-    //    _startPoint = touchPoint;
+        _startPoint = touchPoint;
     //创建初始曲线
     CGRect circleRect = CGRectMake(touchPoint.x - 1, touchPoint.y -1 , 2, 2);
     UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:circleRect];
