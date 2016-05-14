@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3CC8B5A1CDA4BB500B8C285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B591CDA4BB500B8C285 /* main.m */; };
+		F3CC8B5D1CDA4BB500B8C285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B5C1CDA4BB500B8C285 /* AppDelegate.m */; };
+		F3CC8B601CDA4BB500B8C285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B5F1CDA4BB500B8C285 /* ViewController.m */; };
+		F3CC8B631CDA4BB500B8C285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CC8B611CDA4BB500B8C285 /* Main.storyboard */; };
+		F3CC8B651CDA4BB500B8C285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CC8B641CDA4BB500B8C285 /* Assets.xcassets */; };
+		F3CC8B681CDA4BB500B8C285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CC8B661CDA4BB500B8C285 /* LaunchScreen.storyboard */; };
+		F3CC8B731CDA4BB500B8C285 /* XMRippleShadowCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B721CDA4BB500B8C285 /* XMRippleShadowCellDemoTests.m */; };
+		F3CC8B7E1CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B7D1CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests.m */; };
+		F3CC8B8E1CDA4C3400B8C285 /* XMRippleShadowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B8D1CDA4C3400B8C285 /* XMRippleShadowCell.m */; };
+		F3CC8B911CDA4CD100B8C285 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B901CDA4CD100B8C285 /* TestCell.m */; };
+		F3CC8B941CDAF89500B8C285 /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B931CDAF89500B8C285 /* TwoController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3CC8B6F1CDA4BB500B8C285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CC8B4D1CDA4BB500B8C285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CC8B541CDA4BB500B8C285;
+			remoteInfo = XMRippleShadowCellDemo;
+		};
+		F3CC8B7A1CDA4BB500B8C285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CC8B4D1CDA4BB500B8C285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CC8B541CDA4BB500B8C285;
+			remoteInfo = XMRippleShadowCellDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3CC8B551CDA4BB500B8C285 /* XMRippleShadowCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMRippleShadowCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC8B591CDA4BB500B8C285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3CC8B5B1CDA4BB500B8C285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3CC8B5C1CDA4BB500B8C285 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3CC8B5E1CDA4BB500B8C285 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3CC8B5F1CDA4BB500B8C285 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3CC8B621CDA4BB500B8C285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3CC8B641CDA4BB500B8C285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CC8B671CDA4BB500B8C285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3CC8B691CDA4BB500B8C285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC8B6E1CDA4BB500B8C285 /* XMRippleShadowCellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMRippleShadowCellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC8B721CDA4BB500B8C285 /* XMRippleShadowCellDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMRippleShadowCellDemoTests.m; sourceTree = "<group>"; };
+		F3CC8B741CDA4BB500B8C285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC8B791CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMRippleShadowCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC8B7D1CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMRippleShadowCellDemoUITests.m; sourceTree = "<group>"; };
+		F3CC8B7F1CDA4BB500B8C285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC8B8C1CDA4C3400B8C285 /* XMRippleShadowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMRippleShadowCell.h; sourceTree = "<group>"; };
+		F3CC8B8D1CDA4C3400B8C285 /* XMRippleShadowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMRippleShadowCell.m; sourceTree = "<group>"; };
+		F3CC8B8F1CDA4CD100B8C285 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		F3CC8B901CDA4CD100B8C285 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		F3CC8B921CDAF89500B8C285 /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
+		F3CC8B931CDAF89500B8C285 /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CC8B521CDA4BB500B8C285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8B6B1CDA4BB500B8C285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8B761CDA4BB500B8C285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3CC8B4C1CDA4BB500B8C285 = {
+			isa = PBXGroup;
+			children = (
+				F3CC8B571CDA4BB500B8C285 /* XMRippleShadowCellDemo */,
+				F3CC8B711CDA4BB500B8C285 /* XMRippleShadowCellDemoTests */,
+				F3CC8B7C1CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests */,
+				F3CC8B561CDA4BB500B8C285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CC8B561CDA4BB500B8C285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8B551CDA4BB500B8C285 /* XMRippleShadowCellDemo.app */,
+				F3CC8B6E1CDA4BB500B8C285 /* XMRippleShadowCellDemoTests.xctest */,
+				F3CC8B791CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CC8B571CDA4BB500B8C285 /* XMRippleShadowCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8B8B1CDA4C1500B8C285 /* XMRippleShadowCell */,
+				F3CC8B5B1CDA4BB500B8C285 /* AppDelegate.h */,
+				F3CC8B5C1CDA4BB500B8C285 /* AppDelegate.m */,
+				F3CC8B5E1CDA4BB500B8C285 /* ViewController.h */,
+				F3CC8B5F1CDA4BB500B8C285 /* ViewController.m */,
+				F3CC8B921CDAF89500B8C285 /* TwoController.h */,
+				F3CC8B931CDAF89500B8C285 /* TwoController.m */,
+				F3CC8B8F1CDA4CD100B8C285 /* TestCell.h */,
+				F3CC8B901CDA4CD100B8C285 /* TestCell.m */,
+				F3CC8B611CDA4BB500B8C285 /* Main.storyboard */,
+				F3CC8B641CDA4BB500B8C285 /* Assets.xcassets */,
+				F3CC8B661CDA4BB500B8C285 /* LaunchScreen.storyboard */,
+				F3CC8B691CDA4BB500B8C285 /* Info.plist */,
+				F3CC8B581CDA4BB500B8C285 /* Supporting Files */,
+			);
+			path = XMRippleShadowCellDemo;
+			sourceTree = "<group>";
+		};
+		F3CC8B581CDA4BB500B8C285 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8B591CDA4BB500B8C285 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3CC8B711CDA4BB500B8C285 /* XMRippleShadowCellDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8B721CDA4BB500B8C285 /* XMRippleShadowCellDemoTests.m */,
+				F3CC8B741CDA4BB500B8C285 /* Info.plist */,
+			);
+			path = XMRippleShadowCellDemoTests;
+			sourceTree = "<group>";
+		};
+		F3CC8B7C1CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8B7D1CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests.m */,
+				F3CC8B7F1CDA4BB500B8C285 /* Info.plist */,
+			);
+			path = XMRippleShadowCellDemoUITests;
+			sourceTree = "<group>";
+		};
+		F3CC8B8B1CDA4C1500B8C285 /* XMRippleShadowCell */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC8B8C1CDA4C3400B8C285 /* XMRippleShadowCell.h */,
+				F3CC8B8D1CDA4C3400B8C285 /* XMRippleShadowCell.m */,
+			);
+			path = XMRippleShadowCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CC8B541CDA4BB500B8C285 /* XMRippleShadowCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CC8B821CDA4BB500B8C285 /* Build configuration list for PBXNativeTarget "XMRippleShadowCellDemo" */;
+			buildPhases = (
+				F3CC8B511CDA4BB500B8C285 /* Sources */,
+				F3CC8B521CDA4BB500B8C285 /* Frameworks */,
+				F3CC8B531CDA4BB500B8C285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMRippleShadowCellDemo;
+			productName = XMRippleShadowCellDemo;
+			productReference = F3CC8B551CDA4BB500B8C285 /* XMRippleShadowCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3CC8B6D1CDA4BB500B8C285 /* XMRippleShadowCellDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CC8B851CDA4BB500B8C285 /* Build configuration list for PBXNativeTarget "XMRippleShadowCellDemoTests" */;
+			buildPhases = (
+				F3CC8B6A1CDA4BB500B8C285 /* Sources */,
+				F3CC8B6B1CDA4BB500B8C285 /* Frameworks */,
+				F3CC8B6C1CDA4BB500B8C285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CC8B701CDA4BB500B8C285 /* PBXTargetDependency */,
+			);
+			name = XMRippleShadowCellDemoTests;
+			productName = XMRippleShadowCellDemoTests;
+			productReference = F3CC8B6E1CDA4BB500B8C285 /* XMRippleShadowCellDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3CC8B781CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CC8B881CDA4BB500B8C285 /* Build configuration list for PBXNativeTarget "XMRippleShadowCellDemoUITests" */;
+			buildPhases = (
+				F3CC8B751CDA4BB500B8C285 /* Sources */,
+				F3CC8B761CDA4BB500B8C285 /* Frameworks */,
+				F3CC8B771CDA4BB500B8C285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CC8B7B1CDA4BB500B8C285 /* PBXTargetDependency */,
+			);
+			name = XMRippleShadowCellDemoUITests;
+			productName = XMRippleShadowCellDemoUITests;
+			productReference = F3CC8B791CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CC8B4D1CDA4BB500B8C285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TomorJM;
+				TargetAttributes = {
+					F3CC8B541CDA4BB500B8C285 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HR25JTF3LT;
+					};
+					F3CC8B6D1CDA4BB500B8C285 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HR25JTF3LT;
+						TestTargetID = F3CC8B541CDA4BB500B8C285;
+					};
+					F3CC8B781CDA4BB500B8C285 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HR25JTF3LT;
+						TestTargetID = F3CC8B541CDA4BB500B8C285;
+					};
+				};
+			};
+			buildConfigurationList = F3CC8B501CDA4BB500B8C285 /* Build configuration list for PBXProject "XMRippleShadowCellDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CC8B4C1CDA4BB500B8C285;
+			productRefGroup = F3CC8B561CDA4BB500B8C285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CC8B541CDA4BB500B8C285 /* XMRippleShadowCellDemo */,
+				F3CC8B6D1CDA4BB500B8C285 /* XMRippleShadowCellDemoTests */,
+				F3CC8B781CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CC8B531CDA4BB500B8C285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC8B681CDA4BB500B8C285 /* LaunchScreen.storyboard in Resources */,
+				F3CC8B651CDA4BB500B8C285 /* Assets.xcassets in Resources */,
+				F3CC8B631CDA4BB500B8C285 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8B6C1CDA4BB500B8C285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8B771CDA4BB500B8C285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CC8B511CDA4BB500B8C285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC8B601CDA4BB500B8C285 /* ViewController.m in Sources */,
+				F3CC8B5D1CDA4BB500B8C285 /* AppDelegate.m in Sources */,
+				F3CC8B911CDA4CD100B8C285 /* TestCell.m in Sources */,
+				F3CC8B8E1CDA4C3400B8C285 /* XMRippleShadowCell.m in Sources */,
+				F3CC8B941CDAF89500B8C285 /* TwoController.m in Sources */,
+				F3CC8B5A1CDA4BB500B8C285 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8B6A1CDA4BB500B8C285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC8B731CDA4BB500B8C285 /* XMRippleShadowCellDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CC8B751CDA4BB500B8C285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CC8B7E1CDA4BB500B8C285 /* XMRippleShadowCellDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3CC8B701CDA4BB500B8C285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CC8B541CDA4BB500B8C285 /* XMRippleShadowCellDemo */;
+			targetProxy = F3CC8B6F1CDA4BB500B8C285 /* PBXContainerItemProxy */;
+		};
+		F3CC8B7B1CDA4BB500B8C285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CC8B541CDA4BB500B8C285 /* XMRippleShadowCellDemo */;
+			targetProxy = F3CC8B7A1CDA4BB500B8C285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3CC8B611CDA4BB500B8C285 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CC8B621CDA4BB500B8C285 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3CC8B661CDA4BB500B8C285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CC8B671CDA4BB500B8C285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3CC8B801CDA4BB500B8C285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3CC8B811CDA4BB500B8C285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CC8B831CDA4BB500B8C285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMRippleShadowCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.XMRippleShadowCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3CC8B841CDA4BB500B8C285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMRippleShadowCellDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.XMRippleShadowCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3CC8B861CDA4BB500B8C285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMRippleShadowCellDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.XMRippleShadowCellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMRippleShadowCellDemo.app/XMRippleShadowCellDemo";
+			};
+			name = Debug;
+		};
+		F3CC8B871CDA4BB500B8C285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMRippleShadowCellDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.XMRippleShadowCellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMRippleShadowCellDemo.app/XMRippleShadowCellDemo";
+			};
+			name = Release;
+		};
+		F3CC8B891CDA4BB500B8C285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMRippleShadowCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.XMRippleShadowCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMRippleShadowCellDemo;
+			};
+			name = Debug;
+		};
+		F3CC8B8A1CDA4BB500B8C285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMRippleShadowCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tomorrow.XMRippleShadowCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMRippleShadowCellDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CC8B501CDA4BB500B8C285 /* Build configuration list for PBXProject "XMRippleShadowCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC8B801CDA4BB500B8C285 /* Debug */,
+				F3CC8B811CDA4BB500B8C285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CC8B821CDA4BB500B8C285 /* Build configuration list for PBXNativeTarget "XMRippleShadowCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC8B831CDA4BB500B8C285 /* Debug */,
+				F3CC8B841CDA4BB500B8C285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3CC8B851CDA4BB500B8C285 /* Build configuration list for PBXNativeTarget "XMRippleShadowCellDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC8B861CDA4BB500B8C285 /* Debug */,
+				F3CC8B871CDA4BB500B8C285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3CC8B881CDA4BB500B8C285 /* Build configuration list for PBXNativeTarget "XMRippleShadowCellDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CC8B891CDA4BB500B8C285 /* Debug */,
+				F3CC8B8A1CDA4BB500B8C285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CC8B4D1CDA4BB500B8C285 /* Project object */;
+}
