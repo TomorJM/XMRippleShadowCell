@@ -18,6 +18,8 @@
 		F3CC8B8E1CDA4C3400B8C285 /* XMRippleShadowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B8D1CDA4C3400B8C285 /* XMRippleShadowCell.m */; };
 		F3CC8B911CDA4CD100B8C285 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B901CDA4CD100B8C285 /* TestCell.m */; };
 		F3CC8B941CDAF89500B8C285 /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CC8B931CDAF89500B8C285 /* TwoController.m */; };
+		F3CC8BAD1CE786E200B8C285 /* 海绵宝宝.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3CC8BAC1CE786E200B8C285 /* 海绵宝宝.jpeg */; };
+		F3CC8BAF1CE7893E00B8C285 /* th.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3CC8BAE1CE7893E00B8C285 /* th.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		F3CC8B901CDA4CD100B8C285 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 		F3CC8B921CDAF89500B8C285 /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
 		F3CC8B931CDAF89500B8C285 /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
+		F3CC8BAC1CE786E200B8C285 /* 海绵宝宝.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海绵宝宝.jpeg"; sourceTree = "<group>"; };
+		F3CC8BAE1CE7893E00B8C285 /* th.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = th.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				F3CC8B641CDA4BB500B8C285 /* Assets.xcassets */,
 				F3CC8B661CDA4BB500B8C285 /* LaunchScreen.storyboard */,
 				F3CC8B691CDA4BB500B8C285 /* Info.plist */,
+				F3CC8BAC1CE786E200B8C285 /* 海绵宝宝.jpeg */,
+				F3CC8BAE1CE7893E00B8C285 /* th.jpeg */,
 				F3CC8B581CDA4BB500B8C285 /* Supporting Files */,
 			);
 			path = XMRippleShadowCellDemo;
@@ -270,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CC8B681CDA4BB500B8C285 /* LaunchScreen.storyboard in Resources */,
+				F3CC8BAF1CE7893E00B8C285 /* th.jpeg in Resources */,
 				F3CC8B651CDA4BB500B8C285 /* Assets.xcassets in Resources */,
 				F3CC8B631CDA4BB500B8C285 /* Main.storyboard in Resources */,
+				F3CC8BAD1CE786E200B8C285 /* 海绵宝宝.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +535,7 @@
 				F3CC8B841CDA4BB500B8C285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3CC8B851CDA4BB500B8C285 /* Build configuration list for PBXNativeTarget "XMRippleShadowCellDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +544,7 @@
 				F3CC8B871CDA4BB500B8C285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3CC8B881CDA4BB500B8C285 /* Build configuration list for PBXNativeTarget "XMRippleShadowCellDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +553,7 @@
 				F3CC8B8A1CDA4BB500B8C285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

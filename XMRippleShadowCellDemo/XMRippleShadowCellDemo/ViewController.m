@@ -34,8 +34,8 @@
     if (!cell) {
         cell = [[TestCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
-    
-    cell.textLabel.text = @"11111";
+    cell.imageView.image = [UIImage imageNamed:@"海绵宝宝.jpeg"];
+    cell.textLabel.text = @"我是海绵宝宝,派大星呢?";
     return cell;
     
 }

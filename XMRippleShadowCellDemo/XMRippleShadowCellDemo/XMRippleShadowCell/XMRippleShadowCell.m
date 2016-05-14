@@ -188,7 +188,7 @@ static void excute_block_after(NSTimeInterval delay, void (^block)(void))
     _rippleLayer.strokeColor = [UIColor lightGrayColor].CGColor;
     _rippleLayer.lineWidth = 0.1f;
     _rippleLayer.path = path.CGPath;
-    [self.layer insertSublayer:_rippleLayer atIndex:0];
+    [self.contentView.layer addSublayer:_rippleLayer];
     //计算最终直径
     CGFloat diameter = sqrt(self.bounds.size.width * self.bounds.size.width + self.bounds.size.height * self.bounds.size.height) + 10;
     UIBezierPath *finalBezierPath = [self pathWithDiameter:diameter];
